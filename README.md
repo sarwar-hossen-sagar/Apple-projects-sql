@@ -33,30 +33,30 @@ The project uses five main tables:
 
 2. category: Holds product category information
 
-◦ **category_id** :Unique identifier for each product category.
-◦ **category_name** : Name of the category.
+* **category_id** :Unique identifier for each product category.
+* **category_name** : Name of the category.
 
 3. products: Detalls about Apple products.
 
-◦ **product_id**:Unique identifier for each product.
-◦ **product_name** :Name of the product
-◦ **category id** :References the category table.
-◦ **launch_date** : Date when the product was launched.
-◦ **price** : Price of the product.
+* **product_id**:Unique identifier for each product.
+* **product_name** :Name of the product
+* **category id** :References the category table.
+* **launch_date** : Date when the product was launched.
+* **price** : Price of the product.
 
 4. sales: Stores sales transactions.
 
-◦ **sale_id** : Unique identifier for each sale.
-◦ **sale date** :Date of the sale.
-◦ **store_id** : References the store table.
-◦ **product_id** :References the product table.
-◦ **quantity** : Number of units sold.
+* **sale_id** : Unique identifier for each sale.
+* **sale date** :Date of the sale.
+* **store_id** : References the store table.
+* **product_id** :References the product table.
+* **quantity** : Number of units sold.
 
 5. warranty**: Contains information about warranty claims.
-◦ **claim_id** :Unique identifier for each warranty claim.
-◦ **claim_date** :Date the claim was made.
-◦ **sale_id** : References the sales table
-◦ **repair_status** :Status of the warranty claim (e.g-, Pald Repaired, Warranty Void).
+* **claim_id** :Unique identifier for each warranty claim.
+* **claim_date** :Date the claim was made.
+* **sale_id** : References the sales table
+* **repair_status** :Status of the warranty claim (e.g-, Pald Repaired, Warranty Void).
 
 
 ---
