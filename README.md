@@ -26,10 +26,10 @@ The project uses five main tables:
 
 1. stores: Contains information about Apple retail stores.
 
-◦ store_id : Unique identifier for each store.
-◦ store name : Name of the store.
-◦ city : City where the store is located.
-◦ country : Country of the store.
+◦ store_id : Unique identifier for each store
+◦ store name : Name of the store
+◦ city : City where the store is located
+◦ country : Country of the store
 
 2. category: Holds product category information
 
