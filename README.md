@@ -18,6 +18,7 @@ The dataset consists of the following key tables:
 * **CATEGORY** – Product category information
 
 ---
+
 ### Database Schema
 
 
@@ -27,7 +28,7 @@ The project uses five main tables:
 
 ◦ store_id : Unique identifier for each store.
 ◦ store name : Name of the store.
-city : City where the store is located.
+◦ city : City where the store is located.
 ◦ country : Country of the store.
 
 2. category: Holds product category information
@@ -43,7 +44,6 @@ city : City where the store is located.
 ◦ launch_date : Date when the product was launched.
 ◦ price : Price of the product.
 
-
 4. sales: Stores sales transactions.
 
 ◦ sale_id : Unique identifier for each sale.
@@ -53,12 +53,14 @@ city : City where the store is located.
 ◦ quantity : Number of units sold.
 
 5. warranty: Contains information about warranty claims.
-
 ◦ claim_id :Unique identifier for each warranty claim.
 ◦ claim_date :Date the claim was made.
 ◦ sale_id : References the sales table
 ◦ repair_status :Status of the warranty claim (e.g-, Pald Repaired, Warranty Void).
+
+
 ---
+
 ## 🧠 Analytical Queries
 
 ### 1️⃣ Number of Stores per Country
