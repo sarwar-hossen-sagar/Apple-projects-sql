@@ -52,7 +52,7 @@ The project uses five main tables:
 * **product_id** :References the product table.
 * **quantity** : Number of units sold.
 
-5. warranty**: Contains information about warranty claims.
+5. warranty: Contains information about warranty claims.
 * **claim_id** :Unique identifier for each warranty claim.
 * **claim_date** :Date the claim was made.
 * **sale_id** : References the sales table
