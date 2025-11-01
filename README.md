@@ -18,7 +18,7 @@ The dataset consists of the following key tables:
 * **CATEGORY** – Product category information
 
 ---
-Database Schema
+### Database Schema
 
 
 The project uses five main tables:
